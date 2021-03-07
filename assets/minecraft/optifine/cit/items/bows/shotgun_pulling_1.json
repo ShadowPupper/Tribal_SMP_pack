@@ -1,0 +1,342 @@
+{
+    "textures": {
+        "crossbow1": "block/3dstuff/shotgun"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 0, 0, 320 ],
+            "translation": [ 1, 1, 0 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+		"firstperson_lefthand": {
+            "rotation": [ 0, 81, 0 ],
+            "translation": [ 2.13, 6.2, -1],
+            "scale": [ 2, 2, 2 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 261, 0 ],
+            "translation": [ 2.13, 6.2, -1 ],
+            "scale": [ 2, 2, 2 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ -1, 2, -2 ],
+            "scale": [ 1.5, 1.5, 1.5 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 270, 0 ],
+            "translation": [ -1, 2, -2 ],
+            "scale": [ 1.5, 1.5, 1.5 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "rifle_trigger1",
+            "from": [ 9.875, 7, 7.875 ], 
+            "to": [ 10.125, 7.625, 8.125 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.25 ] }
+            }
+        },
+        {
+            "name": "rifle_trigger2",
+            "from": [ 9.75, 6.125, 7.875 ], 
+            "to": [ 9.875, 6.75, 8.125 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 8, 0, 8.125, 0.625 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 8, 0, 8.125, 0.625 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 0, 8.125, 0.25 ] }
+            }
+        },
+        {
+            "name": "rifle_trigger3",
+            "from": [ 8.75, 6.125, 7.875 ], 
+            "to": [ 8.875, 6.75, 8.125 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 8, 0, 8.125, 0.625 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 8, 0, 8.125, 0.625 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 8, 0, 8.25, 0.625 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 0, 8.125, 0.25 ] }
+            }
+        },
+        {
+            "name": "rifle_trigger4",
+            "from": [ 8.875, 6.125, 7.875 ], 
+            "to": [ 9.75, 6.25, 8.125 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 8, 0, 8.875, 0.125 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 8, 0, 8.875, 0.125 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 8, 0, 8.875, 0.25 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 0, 8.875, 0.25 ] }
+            }
+        },
+        {
+            "name": "rifle_body1",
+            "from": [ 7, 6.75, 7.625 ], 
+            "to": [ 10, 8, 8.375 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 8, 0, 16, 6.25 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.75, 1.25 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 8, 0, 11, 1.25 ], "rotation": 180 },
+                "west": { "texture": "#crossbow1", "uv": [ 8, 0, 8.75, 1.25 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 8, 0, 11, 0.75 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 0, 11, 0.75 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_body2",
+            "from": [ 9.875, 7.625, 7.626 ], 
+            "to": [ 11.875, 8.625, 8.366 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 0, 0, 2, 1 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 0, 0, 0.74, 1 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 0, 1, 2, 2 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 0, 3, 2, 3.74 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 0, 3, 2, 3.74 ] }
+            }
+        },
+        {
+            "name": "rifle_body3",
+            "from": [ 11.5, 7.25, 7.75 ], 
+            "to": [ 16, 7.5, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 4, 0, 8.5, 0.25 ], "rotation": 180 },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.5, 0.25 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 4, 0, 8.5, 0.25 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 4, 0, 4.5, 0.25 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 4, 0, 8.5, 0.5 ] }
+            }
+        },
+        {
+            "name": "rifle_body4",
+            "from": [ 11.5, 6.25, 7.625 ], 
+            "to": [ 16, 7.25, 8.375 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 4, 1, 8.5, 2 ], "rotation": 180 },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.75, 1 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 4, 1, 8.5, 2 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 4, 0, 4.75, 1 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 4, 0, 8.5, 0.75 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 4, 0, 8.5, 0.75 ] }
+            }
+        },
+        {
+            "name": "rifle_body5",
+            "from": [ 12.5, 5.75, 7.625 ], 
+            "to": [ 16, 6.25, 8.375 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 5, 3, 8.5, 3.5 ], "rotation": 180 },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.75, 0.5 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 5, 3, 8.5, 3.5 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 4, 0, 4.75, 0.5 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 5, 0, 8.5, 0.75 ] }
+            }
+        },
+        {
+            "name": "rifle_body6",
+            "from": [ 14.5, 5.25, 7.625 ], 
+            "to": [ 16, 5.75, 8.375 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 7, 0, 8.5, 0.5 ], "rotation": 180 },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 0, 8.75, 0.5 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 7, 0, 8.5, 0.5 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 4, 0, 4.75, 0.5 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 7, 0, 8.5, 0.75 ] }
+            }
+        },
+        {
+            "name": "rifle_sight1",
+            "from": [ 0.125, 8, 7.875 ], 
+            "to": [ 0.375, 8.25, 8.125 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 0, 4, 0.25, 4.25 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 0, 4, 0.25, 4.25 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 0, 4, 0.25, 4.25 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 0, 4, 0.25, 4.25 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 0, 4, 0.25, 4.25 ] }
+            }
+        },
+        {
+            "name": "rifle_barrel1",
+            "from": [ 0, 7.5, 7.75 ], 
+            "to": [ 7, 8, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 0, 4, 8, 4.5 ], "rotation": 180 },
+                "south": { "texture": "#crossbow1", "uv": [ 0, 4, 8, 4.5 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 0, 4, 8, 4.5 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 0, 4, 8, 4.5 ] }
+            }
+        },
+        {
+            "name": "rifle_barrel2",
+            "from": [ 2, 6.875, 7.75 ], 
+            "to": [ 7, 7.375, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 4, 4, 8, 4.5 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 4, 4, 8, 4.5 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 4, 4, 4.5, 4.5 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 4, 4, 8, 4.5 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 4, 4, 8, 4.5 ] }
+            }
+        },
+        {
+            "name": "rifle_barrel3",
+            "from": [ 4.5, 6.75, 7.625 ], 
+            "to": [ 7, 7.5, 8.375 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 0, 0, 7.5, 0.75 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 0, 0, 0.75, 0.75 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 0, 1, 7.5, 1.75 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 0, 0, 0.75, 0.75 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 0, 2, 7.5, 2.75 ] },
+                "down": { "texture": "#crossbow1", "uv": [ 0, 3, 7.5, 3.75 ] }
+            }
+        },
+        {
+            "name": "rifle_barrel4",
+            "from": [ 5, 7.375, 7.875 ], 
+            "to": [ 7, 7.5, 8.125 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 8, 4, 10, 4.125 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 8, 4, 10, 4.125 ] }
+            }
+        },
+        {
+            "name": "rifle_barrel5",
+            "from": [ 2.25, 7.375, 7.875 ], 
+            "to": [ 2.5, 7.5, 8.125 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 8, 4, 8.25, 4.125 ] },
+                "east": { "texture": "#crossbow1", "uv": [ 8, 4, 8.25, 4.125 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 8, 4, 8.25, 4.125 ] },
+                "west": { "texture": "#crossbow1", "uv": [ 8, 4, 8.25, 4.125 ] }
+            }
+        },
+        {
+            "name": "rifle_rack1",
+            "from": [ 7, 7.125, 8.375 ], 
+            "to": [ 9.625, 7.75, 8.5 ], 
+            "faces": {
+                "east": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 12, 8, 14.625, 8.625 ], "rotation": 180 },
+                "west": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 12, 8, 14.625, 8.125 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 12, 8, 14.625, 8.125 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_rack2",
+            "from": [ 7, 7.125, 8.5 ], 
+            "to": [ 7.125, 7.75, 8.875 ], 
+            "faces": {
+                "south": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ], "rotation": 180 },
+                "west": { "texture": "#crossbow1", "uv": [ 12, 8, 12.375, 8.625 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_rack3",
+            "from": [ 7.5, 7.125, 8.5 ], 
+            "to": [ 7.625, 7.75, 8.875 ], 
+            "faces": {
+                "south": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ], "rotation": 180 },
+                "up": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_rack4",
+            "from": [ 8, 7.125, 8.5 ], 
+            "to": [ 8.125, 7.75, 8.875 ], 
+            "faces": {
+                "south": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ], "rotation": 180 },
+                "up": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_rack5",
+            "from": [ 8.5, 7.125, 8.5 ], 
+            "to": [ 8.625, 7.75, 8.875 ], 
+            "faces": {
+                "east": { "texture": "#crossbow1", "uv": [ 12, 8, 12.375, 8.625 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ], "rotation": 180 },
+                "up": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_rack6",
+            "from": [ 9, 7.125, 8.5 ], 
+            "to": [ 9.125, 7.75, 8.875 ], 
+            "faces": {
+                "east": { "texture": "#crossbow1", "uv": [ 12, 8, 12.375, 8.625 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ], "rotation": 180 },
+                "west": { "texture": "#crossbow1", "uv": [ 12, 8, 12.375, 8.625 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_rack7",
+            "from": [ 9.5, 7.125, 8.5 ], 
+            "to": [ 9.625, 7.75, 8.875 ], 
+            "faces": {
+                "east": { "texture": "#crossbow1", "uv": [ 12, 8, 12.375, 8.625 ] },
+                "south": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.625 ], "rotation": 180 },
+                "west": { "texture": "#crossbow1", "uv": [ 12, 8, 12.375, 8.625 ] },
+                "up": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 12, 8, 12.125, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_shell1",
+            "from": [ 7.125, 7, 8.5 ], 
+            "to": [ 7.5, 8, 8.875 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "east": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "south": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "west": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "up": { "texture": "#crossbow1", "uv": [ 4, 8, 4.375, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 8, 8.375, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_shell2",
+            "from": [ 7.625, 7, 8.5 ], 
+            "to": [ 8, 8, 8.875 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "east": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "south": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "west": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "up": { "texture": "#crossbow1", "uv": [ 4, 8, 4.375, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 8, 8.375, 8.375 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "rifle_shell3",
+            "from": [ 8.125, 7, 8.5 ], 
+            "to": [ 8.5, 8, 8.875 ], 
+            "faces": {
+                "north": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "east": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "south": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "west": { "texture": "#crossbow1", "uv": [ 7, 8, 11.375, 9 ], "rotation": 90 },
+                "up": { "texture": "#crossbow1", "uv": [ 4, 8, 4.375, 8.375 ], "rotation": 180 },
+                "down": { "texture": "#crossbow1", "uv": [ 8, 8, 8.375, 8.375 ], "rotation": 180 }
+            }
+        }
+    ]
+}
